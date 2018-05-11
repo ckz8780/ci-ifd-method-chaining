@@ -10,4 +10,9 @@ $(document).ready(function() {
  $('#button1').mouseleave(function() {
   $(this).removeClass("makeBorder").addClass('makeRed');
  });
+ 
+ // Challenge 2:
+ $('#button1').click(function() {
+  $('#para1').slideToggle(500);
+ })
 }); 
