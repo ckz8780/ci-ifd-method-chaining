@@ -15,4 +15,17 @@ $(document).ready(function() {
  $('#button1').click(function() {
   $('#para1').slideToggle(500);
  })
+ 
+ //Challenge 3 (adding additional functionality):
+ $('#button2').mouseenter(function() {
+  $(this).removeClass("makeRed").addClass('makeBorder');
+ })
+ 
+ $('#button2').mouseleave(function() {
+  $(this).removeClass("makeBorder").addClass('makeRed');
+ });
+ 
+ $('#button2').click(function() {
+  $('#para2').fadeToggle(500);
+ })
 }); 
