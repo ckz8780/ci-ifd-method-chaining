@@ -51,4 +51,13 @@ Navigation
   border: solid 5px #ccc;
 }
 
+/*---------------------------------------Challenge 1 CSS*/
+
+.makeRed {
+	background-color: red;
+}
+
+.makeBorder {
+	border: 2px solid blue;
+}
 
